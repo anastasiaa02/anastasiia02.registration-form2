@@ -1,0 +1,128 @@
+body{
+    background-color: #828385;
+}
+h1{
+    text-align: center;
+    color: #C2C2C2;
+    font-size: 60pt;
+    margin-bottom: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 3px 5px rgba(86, 86, 86, 1);
+}
+.box1{
+    margin: 0 auto;
+    background-color: white;
+    width: 800px;
+    height: 400px;
+    box-shadow: 0px 0px 30px -10px rgba(34, 60, 80, 0.85);
+    display: flex;
+    align-items: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+}
+#btn2{
+    float: right;
+    background-color: transparent;
+    margin-right: -80px;
+}
+#btn{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: #383838;
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    font-size: 11pt;
+    outline: none;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#btn:hover{
+    transform: scale(1.03);
+}
+#btn2:hover{
+    transform: scale(1.03);
+}
+input{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11pt;
+    width: 285px;
+    height: 35px;
+    outline: none;
+    background-color: white;
+    border-radius: 3px;
+    border: 0;
+}
+.username, .password{
+    border-radius: 3px;
+    border-style: solid;
+    border-color: #C2C2C2;
+    border-width: 1px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+.box2{
+    padding: 30px;
+    padding-top: 50px;
+    padding-bottom: 0;
+}
+#result_form{
+    font-size: 18px;
+    color: black;
+    font-family: Segoe UI;
+    position: fixed;
+    margin-top: -500px;
+}
+img{
+    margin-bottom: -4px;
+}
+.register{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11pt;
+    text-align: center;
+}
+a, #btn2{
+    color: #888888;
+}
+span{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15pt;
+    text-align: center;
+    color: #C2C2C2;
+}
+.fa{
+    text-align: center;
+    padding: 15px;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50px;
+}  
+.fa:hover{
+    opacity: 0.7;
+}
+.fa-facebook{
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter{
+    background: #55ACEE;
+    color: white;
+}
+.fa-google{
+    background: #dd4b39;
+    color: white;
+}
+.social_media{
+    text-align: center;
+}
+  
